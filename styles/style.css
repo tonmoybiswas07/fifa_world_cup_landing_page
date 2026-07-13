@@ -1,2 +1,42 @@
 /* css link here */
 /* google font import link here */
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* header style here */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.middle-header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.middle-header nav ul li a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 16px ;
+    font-style: 600;
+}
+.right-header button{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: #E8BA2E;
+    color: black;
+    font-weight: 700;
+}
+
