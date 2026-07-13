@@ -234,3 +234,34 @@ align-items: center;
 }
 
 
+/* footer style here */
+.footer{
+    background-color: #000102;
+    padding: 50px;
+}
+.top-footer{
+    display: flex;
+    align-items: centera;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 2px solid gray;
+}
+.social-media-icon i{
+    color: gray;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    padding: 20px 0px;
+}
