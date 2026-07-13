@@ -125,3 +125,112 @@ align-items: center;
     padding: 0px 15px;
     color: rgb(18, 1, 1);
 }
+/* ai newsletter style */
+
+
+.newsletter {
+  width: 100%;
+  margin: 100px auto;
+  background: rgba(17, 24, 39, 0.9);
+  border: 1px solid rgba(0, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 55px 45px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.08);
+}
+
+.newsletter::before {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  background: #00f5ff;
+  filter: blur(120px);
+  top: -80px;
+  left: -70px;
+  opacity: 0.25;
+}
+
+.newsletter::after {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  background: #7c3aed;
+  filter: blur(120px);
+  bottom: -90px;
+  right: -80px;
+  opacity: 0.25;
+}
+
+.newsletter h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.newsletter h2 span {
+  color: #00f5ff;
+}
+
+.newsletter p {
+  color: #b8c1d1;
+  max-width: 620px;
+  margin: 0 auto 35px;
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+}
+
+.newsletter form {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.newsletter input {
+  flex: 1;
+  min-width: 250px;
+  padding: 16px 20px;
+  background: #0f172a;
+  border: 1px solid rgba(0, 255, 255, 0.25);
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.newsletter input::placeholder {
+  color: #8b95a7;
+}
+
+.newsletter input:focus {
+  border-color: #00f5ff;
+  box-shadow: 0 0 18px rgba(0, 245, 255, 0.35);
+}
+
+.newsletter button {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(135deg, #00c6ff, #7c3aed);
+  transition: 0.3s;
+}
+
+.newsletter button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 198, 255, 0.35);
+}
+
+
