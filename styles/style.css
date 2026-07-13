@@ -39,4 +39,37 @@
     color: black;
     font-weight: 700;
 }
+/* banner style here */
+.banner{
+    background-image: url(../images/image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+}
 
+.banner-content h2{
+    font-size: 88px;
+    font-weight: bold;
+    color: white;
+
+}
+.banner-content p{
+    font-size: 16px;
+    color: white;
+}
+.banner-btn button{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: #E8BA2E;
+    color: black;
+    font-weight: 700;
+    margin-top: 30px;
+}
