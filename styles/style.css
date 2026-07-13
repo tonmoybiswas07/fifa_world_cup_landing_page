@@ -93,3 +93,35 @@ align-items: center;
     font-size: 16px;
     font-weight: normal;
 }
+/* host cities style here */
+.h-title h2{
+   margin: 50px auto; 
+   font-size: 56px;
+   font-weight: 700;
+   text-align: center;
+}
+.host-cities-card-container{
+    margin: 30px auto;
+}
+.host-cities-card{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    margin: 30px auto;
+}
+.left-host-cities-card img{
+    height: 250px;
+}
+.right-host-cities-card h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.right-host-cities-card p{
+    color: rgb(18, 1, 1);
+    margin: 20px auto;
+}
+.right-host-cities-card ul{
+    padding: 0px 15px;
+    color: rgb(18, 1, 1);
+}
