@@ -125,6 +125,53 @@ align-items: center;
     padding: 0px 15px;
     color: rgb(18, 1, 1);
 }
+
+/* table section style */
+.table{
+  border: 1px solid gray;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.265);
+  padding: 20px;
+}
+.table-title{
+  text-align: left;
+  margin-bottom: 40px;
+  
+}
+.table-title h2{
+  font-size: 32px;
+  font-weight: bold;
+  
+}
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+.table table thead tr th{
+  background-color: #A73131;
+  color: white;
+}
+.red{
+  color: red;
+}
+
+.table table thead tr th,.table table tbody tr td{
+  border: 2px solid black;
+  padding: 20px;
+  font-weight: bold;
+  
+}
+.table table tbody tr td{
+  text-align: center;
+}
+.opening{
+  color: red;
+}
+.final {
+  color: #BDA004;
+}
+
 /* ai newsletter style */
 
 
